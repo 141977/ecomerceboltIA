@@ -40,7 +40,7 @@ const products = [
         name: "Short Jeans Claro",
         price: 89.90,
         category: "shorts",
-        image: "https://images.pexels.com/photos/5560023/pexels-photo-5560023.jpeg?auto=compress&cs=tinysrgb&w=400",
+        image: "https://images.pexels.com/photos/1598507/pexels-photo-1598507.jpeg?auto=compress&cs=tinysrgb&w=400",
         description: "Short jeans claro com lavagem especial. Corte moderno e muito confortável."
     },
     {
@@ -48,7 +48,7 @@ const products = [
         name: "Short Alfaiataria",
         price: 75.90,
         category: "shorts",
-        image: "https://images.pexels.com/photos/5560048/pexels-photo-5560048.jpeg?auto=compress&cs=tinysrgb&w=400",
+        image: "https://images.pexels.com/photos/7679720/pexels-photo-7679720.jpeg?auto=compress&cs=tinysrgb&w=400",
         description: "Short de alfaiataria elegante para looks mais sofisticados. Tecido de alta qualidade."
     },
     {
@@ -56,7 +56,7 @@ const products = [
         name: "Short Estampado",
         price: 65.90,
         category: "shorts",
-        image: "https://images.pexels.com/photos/5560052/pexels-photo-5560052.jpeg?auto=compress&cs=tinysrgb&w=400",
+        image: "https://images.pexels.com/photos/1536619/pexels-photo-1536619.jpeg?auto=compress&cs=tinysrgb&w=400",
         description: "Short com estampa tropical vibrante. Perfeito para o verão e dias ensolarados."
     },
     {
@@ -64,7 +64,7 @@ const products = [
         name: "Short Moletom",
         price: 55.90,
         category: "shorts",
-        image: "https://images.pexels.com/photos/5560015/pexels-photo-5560015.jpeg?auto=compress&cs=tinysrgb&w=400",
+        image: "https://images.pexels.com/photos/7679471/pexels-photo-7679471.jpeg?auto=compress&cs=tinysrgb&w=400",
         description: "Short de moletom confortável para atividades físicas e momentos de relaxamento."
     },
     
