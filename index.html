@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bella Fashion - Moda Feminina</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>Bella Fashion</h1>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <nav class="nav-desktop">
+                    <ul>
+                        <li><a href="#" data-filter="all">Todos</a></li>
+                        <li><a href="#" data-filter="camisetas">Camisetas</a></li>
+                        <li><a href="#" data-filter="shorts">Shorts</a></li>
+                        <li><a href="#" data-filter="calcas">Calças</a></li>
+                    </ul>
+                </nav>
+
+                <!-- Search Bar -->
+                <div class="search-container">
+                    <input type="text" id="searchInput" placeholder="Buscar produtos...">
+                    <button class="search-btn">🔍</button>
+                </div>
+
+                <!-- Cart and Mobile Menu -->
+                <div class="header-actions">
+                    <button class="cart-btn" id="cartBtn">
+                        🛍️ <span class="cart-count" id="cartCount">0</span>
+                    </button>
+                    <button class="mobile-menu-btn" id="mobileMenuBtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Navigation -->
+        <nav class="nav-mobile" id="mobileNav">
+            <ul>
+                <li><a href="#" data-filter="all">Todos os Produtos</a></li>
+                <li><a href="#" data-filter="camisetas">Camisetas</a></li>
+                <li><a href="#" data-filter="shorts">Shorts</a></li>
+                <li><a href="#" data-filter="calcas">Calças</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Descubra seu estilo único</h2>
+            <p>Coleção exclusiva de moda feminina com as últimas tendências</p>
+            <button class="cta-btn">Ver Coleção</button>
+        </div>
+    </section>
+
+    <!-- Filters -->
+    <section class="filters">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="camisetas">Camisetas</button>
+                <button class="filter-btn" data-filter="shorts">Shorts</button>
+                <button class="filter-btn" data-filter="calcas">Calças</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products">
+        <div class="container">
+            <div class="products-grid" id="productsGrid">
+                <!-- Products will be dynamically inserted here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Cart Modal -->
+    <div class="modal" id="cartModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Seu Carrinho</h3>
+                <button class="close-btn" id="closeCartModal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div id="cartItems">
+                    <!-- Cart items will be inserted here -->
+                </div>
+                <div class="cart-total">
+                    <strong>Total: R$ <span id="cartTotal">0,00</span></strong>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" id="clearCart">Limpar Carrinho</button>
+                <button class="btn btn-primary">Finalizar Compra</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Product Detail Modal -->
+    <div class="modal" id="productModal">
+        <div class="modal-content">
+            <button class="close-btn" id="closeProductModal">&times;</button>
+            <div class="product-detail">
+                <div class="product-image">
+                    <img id="modalProductImage" src="" alt="">
+                </div>
+                <div class="product-info">
+                    <h3 id="modalProductName"></h3>
+                    <p class="price" id="modalProductPrice"></p>
+                    <p class="description" id="modalProductDescription"></p>
+                    <div class="product-actions">
+                        <button class="btn btn-outline" id="modalFavoriteBtn">❤️ Favoritar</button>
+                        <button class="btn btn-primary" id="modalAddToCartBtn">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Bella Fashion</h4>
+                    <p>Sua loja online de moda feminina com estilo e elegância.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Contato</h4>
+                    <p>📧 contato@bellafashion.com</p>
+                    <p>📱 (11) 99999-9999</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Redes Sociais</h4>
+                    <p>Instagram | Facebook | Pinterest</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Bella Fashion. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
